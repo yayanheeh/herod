@@ -1,0 +1,20 @@
+<Files ~ "^.*\.zip">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+<Files ~ "^.*\.tpl">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+<Files ~ "^.*\.htpasswd">
+order allow,deny
+deny from all
+satisfy all
+</Files>
+<Files ~ "^.*\.html">
+order allow,deny
+deny from all
+satisfy all
+</Files>
